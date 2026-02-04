@@ -5,6 +5,7 @@ const quickLinks = [
   { name: 'Services', href: '/services' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
+  { name: 'Gallery', href: '/gallery' },
   { name: 'Privacy Policy', href: '/privacy-policy' },
 ];
 
@@ -63,17 +64,14 @@ export default function Footer() {
             <p className="text-gray-400 mb-4">
               Proudly serving Sittingbourne and surrounding Kent areas including Faversham, Gillingham, and Rainham.
             </p>
-            <p className="text-sm text-gray-500 italic">
-              [Specific service towns to be confirmed]
-            </p>
 
             <h3 className="text-lg font-semibold mt-6 mb-4 text-yellow">Accreditations</h3>
             <div className="flex gap-4">
               <div className="w-16 h-16 bg-gray-900 rounded-lg flex items-center justify-center text-xs text-gray-500 text-center p-2 border border-gray-800">
-                [JIB Badge]
+                JIB
               </div>
               <div className="w-16 h-16 bg-gray-900 rounded-lg flex items-center justify-center text-xs text-gray-500 text-center p-2 border border-gray-800">
-                [C&G Badge]
+                C&G
               </div>
             </div>
           </div>

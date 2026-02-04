@@ -13,54 +13,20 @@ export default function PrivacyPolicyPage() {
       <PageHero
         title="Privacy Policy"
         subtitle="How we collect, use, and protect your personal information."
-        breadcrumbs={[
-          { name: 'Home', href: '/' },
-          { name: 'Privacy Policy', href: '/privacy-policy' },
-        ]}
         showPattern={false}
       />
 
       <section className="py-16 md:py-24 bg-white">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          {/* Notice */}
-          <div className="bg-yellow/10 border border-yellow/30 rounded-xl p-6 mb-10">
-            <div className="flex items-start gap-3">
-              <svg
-                className="w-6 h-6 text-yellow-dark flex-shrink-0 mt-0.5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                />
-              </svg>
-              <div>
-                <h3 className="font-bold text-gray-900">Template Notice</h3>
-                <p className="text-gray-600 text-sm mt-1">
-                  This privacy policy is a template that needs to be reviewed and customized
-                  for your specific business practices. Items marked with [brackets] require
-                  your input.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className="prose prose-gray max-w-none">
-            <p className="text-gray-500 text-sm">Last updated: [Date to be added]</p>
+            <p className="text-gray-500 text-sm">Last updated: February 2026</p>
 
             <h2 className="text-gray-900">1. Introduction</h2>
             <p>
-              <strong>[Your Business Name]</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to
+              <strong>Terry Thornton Electrician</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to
               protecting your privacy. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our website or use
               our services.
-            </p>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [Confirm your exact business name and trading name]
             </p>
 
             <h2 className="text-gray-900">2. Information We Collect</h2>
@@ -87,9 +53,6 @@ export default function PrivacyPolicyPage() {
               about your device, including your IP address, browser type, and operating
               system.
             </p>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [Do you use Google Analytics or other tracking? This section may need expansion]
-            </p>
 
             <h2 className="text-gray-900">3. How We Use Your Information</h2>
             <p>We use the information we collect to:</p>
@@ -101,9 +64,6 @@ export default function PrivacyPolicyPage() {
               <li>Improve our website and services</li>
               <li>Comply with legal obligations</li>
             </ul>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [Do you send marketing emails? If so, this should be mentioned]
-            </p>
 
             <h2 className="text-gray-900">4. How We Share Your Information</h2>
             <p>
@@ -119,20 +79,12 @@ export default function PrivacyPolicyPage() {
                 confidential)
               </li>
             </ul>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [Do you use any third-party services that process customer data?
-              e.g., email services, accounting software?]
-            </p>
 
             <h2 className="text-gray-900">5. Data Retention</h2>
             <p>
               We retain your personal information for as long as necessary to fulfil the
               purposes for which it was collected, including to satisfy legal, accounting,
               or reporting requirements.
-            </p>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [How long do you keep customer records? Consider legal requirements for
-              electrical certification records]
             </p>
 
             <h2 className="text-gray-900">6. Your Rights</h2>
@@ -155,10 +107,6 @@ export default function PrivacyPolicyPage() {
               Our website may use cookies to enhance your browsing experience. Cookies are
               small files stored on your device that help us understand how you use our
               site.
-            </p>
-            <p className="text-yellow-dark/80 italic text-sm">
-              [This section needs expansion based on what cookies your site actually uses.
-              You may need a cookie consent banner.]
             </p>
 
             <h2 className="text-gray-900">8. Security</h2>
@@ -185,13 +133,11 @@ export default function PrivacyPolicyPage() {
               </li>
               <li>
                 <strong>Email:</strong>{' '}
-                <span className="text-yellow-dark/80 italic">[Your email address]</span>
+                <span className="text-gray-600">Contact us by phone</span>
               </li>
               <li>
                 <strong>Address:</strong>{' '}
-                <span className="text-yellow-dark/80 italic">
-                  [Your business address if you want to include it]
-                </span>
+                <span className="text-gray-600">Sittingbourne, Kent</span>
               </li>
             </ul>
 
@@ -217,15 +163,6 @@ export default function PrivacyPolicyPage() {
             </ul>
           </div>
 
-          {/* Final Notice */}
-          <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 mt-10">
-            <h3 className="font-bold text-gray-900 mb-2">Before Publishing</h3>
-            <p className="text-gray-600 text-sm">
-              This template should be reviewed by a legal professional to ensure it
-              accurately reflects your data practices and complies with UK GDPR and other
-              applicable regulations.
-            </p>
-          </div>
         </div>
       </section>
     </>

@@ -107,9 +107,6 @@ export default function ContactForm() {
         <p className="text-green-700 mb-4">
           Your message has been received. We&apos;ll be in touch shortly.
         </p>
-        <p className="text-sm text-gray-500 italic">
-          [Form submissions will need to be configured to your preferred email]
-        </p>
       </div>
     );
   }

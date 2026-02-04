@@ -14,13 +14,9 @@ export default function ContactPage() {
       <PageHero
         title="Get in Touch"
         subtitle="Contact us for a free, no-obligation quote on your electrical work."
-        breadcrumbs={[
-          { name: 'Home', href: '/' },
-          { name: 'Contact', href: '/contact' },
-        ]}
       />
 
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Information */}
@@ -58,7 +54,7 @@ export default function ContactPage() {
                 </p>
               </div>
 
-              {/* Email Placeholder */}
+              {/* Email */}
               <div className="bg-gray-50 rounded-xl p-6 mb-6 border-2 border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2 flex items-center">
                   <svg
@@ -76,14 +72,14 @@ export default function ContactPage() {
                   </svg>
                   Email
                 </h3>
-                <p className="text-yellow-dark/80 italic">
-                  [Email address to be added if you&apos;d like to provide one]
+                <p className="text-gray-600">
+                  Contact us by phone or use the form
                 </p>
               </div>
 
-              {/* Service Hours */}
+              {/* Business Hours */}
               <div className="bg-gray-50 rounded-xl p-6 mb-6 border-2 border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-2 flex items-center">
+                <h3 className="font-bold text-gray-900 mb-3 flex items-center">
                   <svg
                     className="w-5 h-5 text-yellow-dark mr-2"
                     fill="none"
@@ -97,10 +93,24 @@ export default function ContactPage() {
                       d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
                     />
                   </svg>
-                  Service Hours
+                  Business Hours
                 </h3>
-                <p className="text-yellow-dark/80 italic">
-                  [What are your typical working hours? e.g., Monday-Friday 8am-6pm?]
+                <div className="space-y-1 text-gray-600">
+                  <div className="flex justify-between">
+                    <span>Monday &ndash; Friday</span>
+                    <span className="font-medium">8:00am &ndash; 6:00pm</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Saturday</span>
+                    <span className="font-medium">By arrangement</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Sunday</span>
+                    <span className="font-medium">Closed</span>
+                  </div>
+                </div>
+                <p className="text-gray-500 text-sm mt-3 pt-3 border-t border-gray-200">
+                  Emergency call-outs available outside these hours &mdash; call 07951 596167
                 </p>
               </div>
 
@@ -120,47 +130,20 @@ export default function ContactPage() {
                       d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
                     />
                   </svg>
-                  Emergency Call-Outs
+                  Electrical Emergency?
                 </h3>
-                <p className="text-gray-600 mb-2">
-                  Available for electrical emergencies
+                <p className="text-gray-600 mb-3">
+                  Call us immediately for urgent issues like power outages, sparking sockets, or burning smells.
                 </p>
-                <p className="text-yellow-dark/80 italic text-sm">
-                  [What&apos;s your typical response time for emergencies? Are you available
-                  evenings/weekends?]
-                </p>
-              </div>
-
-              {/* Service Area */}
-              <div className="mt-8">
-                <h3 className="text-xl font-bold text-gray-900 mb-4">Service Area</h3>
-                <p className="text-gray-600 mb-4">
-                  We proudly serve Sittingbourne and the surrounding Kent areas.
-                </p>
-                <p className="text-yellow-dark/80 italic mb-4">
-                  [Which specific towns do you cover? e.g., Faversham, Gillingham, Rainham,
-                  Sheerness, Isle of Sheppey?]
-                </p>
-
-                {/* Map Placeholder */}
-                <div className="bg-gray-100 rounded-xl p-8 border-2 border-dashed border-gray-300">
-                  <div className="text-center text-gray-400">
-                    <svg
-                      className="w-12 h-12 mx-auto mb-2 opacity-50"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={1.5}
-                        d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
-                      />
-                    </svg>
-                    <p className="text-sm">[Interactive service area map can be added here]</p>
-                  </div>
-                </div>
+                <a
+                  href="tel:07951596167"
+                  className="inline-flex items-center text-yellow-dark font-bold hover:underline"
+                >
+                  <svg className="w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Call 07951 596167 now
+                </a>
               </div>
             </div>
 
@@ -173,12 +156,6 @@ export default function ContactPage() {
                 </p>
                 <ContactForm />
               </div>
-
-              <p className="text-sm text-gray-500 mt-4 text-center">
-                <span className="text-yellow-dark/80 italic">
-                  [Form submissions will need to be configured to your preferred email]
-                </span>
-              </p>
             </div>
           </div>
         </div>

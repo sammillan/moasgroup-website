@@ -8,56 +8,25 @@ export const metadata: Metadata = {
     'Learn about Terry Thornton, JIB Approved Electrician in Sittingbourne, Kent with 30+ years experience. City & Guilds qualified since 1981.',
 };
 
-const timeline = [
-  {
-    year: '1981',
-    title: 'Qualified as JIB Approved Electrician',
-    description: 'Awarded City & Guilds qualification and JIB approval.',
-    placeholder: '[More details about your early career?]',
-  },
-  {
-    year: '[Year]',
-    title: '[Career Milestone]',
-    description: '[Description of a significant point in your career]',
-    placeholder: '[What happened here? Started your own business? Major project?]',
-  },
-  {
-    year: '[Year]',
-    title: '[Another Achievement]',
-    description: '[Description of another career highlight]',
-    placeholder: '[Additional training? Expansion? Notable project?]',
-  },
-  {
-    year: 'Present',
-    title: '30+ Years of Service',
-    description: 'Continuing to serve Sittingbourne and Kent with quality electrical work.',
-    placeholder: '[Current focus or specialties?]',
-  },
-];
-
 export default function AboutPage() {
   return (
     <>
       <PageHero
         title="About Terry Thornton"
         subtitle="JIB Approved Electrician serving Sittingbourne and Kent for over 30 years."
-        breadcrumbs={[
-          { name: 'Home', href: '/' },
-          { name: 'About', href: '/about' },
-        ]}
       />
 
       {/* About Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-12 md:py-16 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Image Placeholder */}
             <div className="order-2 lg:order-1">
-              <div className="bg-gray-100 rounded-2xl p-8 border-2 border-dashed border-gray-300">
-                <div className="aspect-[3/4] flex items-center justify-center">
-                  <div className="text-center text-gray-400 p-6">
+              <div className="bg-gray-100 rounded-xl p-6 border-2 border-dashed border-gray-300">
+                <div className="aspect-square flex items-center justify-center">
+                  <div className="text-center text-gray-400">
                     <svg
-                      className="w-20 h-20 mx-auto mb-4 opacity-50"
+                      className="w-16 h-16 mx-auto mb-3 opacity-50"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -69,10 +38,7 @@ export default function AboutPage() {
                         d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
                       />
                     </svg>
-                    <p className="text-lg font-medium">[Your professional photo]</p>
-                    <p className="text-sm mt-2">
-                      A professional headshot or photo of you at work would go great here
-                    </p>
+                    <p className="text-sm font-medium">Professional Photo</p>
                   </div>
                 </div>
               </div>
@@ -84,167 +50,137 @@ export default function AboutPage() {
                 Hello, I&apos;m Terry Thornton
               </h2>
 
-              <div className="prose prose-lg max-w-none">
-                <p className="text-gray-600 mb-4">
-                  I&apos;m a JIB Approved Electrician based in Sittingbourne, Kent, with over 30 years
-                  of experience in the electrical trade. Since qualifying with my City & Guilds in
-                  1981, I&apos;ve been helping homeowners and businesses throughout Kent with all their
-                  electrical needs.
-                </p>
-
-                <div className="bg-yellow/10 border border-yellow/30 rounded-xl p-6 my-6">
-                  <p className="text-yellow-dark/90 italic">
-                    [We&apos;ll craft your personal story here - what made you become an electrician?
-                    What do you love about the work? Any memorable projects or achievements?]
-                  </p>
-                </div>
-
-                <p className="text-gray-600 mb-4">
-                  I take pride in delivering quality workmanship, honest advice, and fair pricing.
-                  No job is too small, and I treat every customer&apos;s home with the same care and
-                  respect I&apos;d give my own.
-                </p>
-
-                <p className="text-gray-600">
-                  When you choose me for your electrical work, you&apos;re getting a qualified,
-                  experienced professional who genuinely cares about doing the job right.
-                </p>
-              </div>
-
-              <div className="mt-8">
-                <CTAButton href="/contact" variant="primary" size="lg">
-                  Get in Touch
-                </CTAButton>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Qualifications */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Qualifications & Certifications
-            </h2>
-            <p className="text-lg text-gray-600">
-              Fully qualified and approved for your peace of mind.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm border-2 border-gray-200">
-              <div className="w-20 h-20 bg-gray-100 rounded-xl mx-auto mb-4 flex items-center justify-center border-2 border-dashed border-gray-300">
-                <span className="text-xs text-gray-400">[JIB Logo]</span>
-              </div>
-              <h3 className="font-bold text-gray-900">JIB Approved</h3>
-              <p className="text-sm text-gray-600 mt-1">Grade awarded 1981</p>
-            </div>
-
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm border-2 border-gray-200">
-              <div className="w-20 h-20 bg-gray-100 rounded-xl mx-auto mb-4 flex items-center justify-center border-2 border-dashed border-gray-300">
-                <span className="text-xs text-gray-400">[C&G Logo]</span>
-              </div>
-              <h3 className="font-bold text-gray-900">City & Guilds</h3>
-              <p className="text-sm text-gray-600 mt-1">Qualified Electrician</p>
-            </div>
-
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm border-2 border-gray-200">
-              <div className="w-20 h-20 bg-gray-100 rounded-xl mx-auto mb-4 flex items-center justify-center border-2 border-dashed border-gray-300">
-                <span className="text-xs text-gray-400">[Insurance]</span>
-              </div>
-              <h3 className="font-bold text-gray-900">Fully Insured</h3>
-              <p className="text-sm text-gray-600 mt-1">Public Liability Coverage</p>
-            </div>
-
-            <div className="bg-white rounded-xl p-6 text-center shadow-sm border-2 border-dashed border-gray-300">
-              <div className="w-20 h-20 bg-gray-50 rounded-xl mx-auto mb-4 flex items-center justify-center">
-                <span className="text-xs text-gray-400">[Other?]</span>
-              </div>
-              <h3 className="font-bold text-gray-400">[Additional Cert]</h3>
-              <p className="text-sm text-yellow-dark/80 italic mt-1">
-                [Any other certifications?]
+              <p className="text-gray-600 text-lg mb-8">
+                I&apos;m a JIB Approved Electrician based in Sittingbourne, Kent, with over 30 years
+                of experience in the electrical trade. Since qualifying with my City & Guilds in
+                1981, I&apos;ve been helping homeowners and businesses throughout Kent with all their
+                electrical needs.
               </p>
+
+              {/* Qualifications - simple inline */}
+              <div className="flex flex-wrap gap-3 mb-8">
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  JIB Approved
+                </span>
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  City & Guilds Qualified
+                </span>
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  Fully Insured
+                </span>
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  30+ Years Experience
+                </span>
+              </div>
+
+              <CTAButton href="/contact" variant="primary" size="lg">
+                Get in Touch
+              </CTAButton>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="py-16 md:py-24 bg-white">
+      {/* Service Area Map */}
+      <section className="py-12 md:py-16 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Experience Timeline
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+              Our Service Area
             </h2>
-            <p className="text-yellow-dark/80 italic">
-              [Let&apos;s build out your career highlights together]
+            <p className="text-gray-600">
+              Based in Sittingbourne, serving across Kent.
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-yellow/30" />
+          {/* Mock Google Maps */}
+          <div className="max-w-4xl mx-auto rounded-xl overflow-hidden border-2 border-gray-200 shadow-sm">
+            <div className="relative bg-[#e8e4d8] aspect-[16/9]">
+              {/* Map background with road grid */}
+              <svg className="absolute inset-0 w-full h-full" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+                {/* Water areas */}
+                <path d="M500 0 L800 0 L800 120 L650 100 L580 140 L500 80 Z" fill="#aadaff" />
+                <path d="M620 130 L800 100 L800 250 L700 220 L650 180 Z" fill="#aadaff" />
+                <path d="M0 0 L100 0 L80 60 L0 40 Z" fill="#aadaff" opacity="0.5" />
 
-              {timeline.map((item, index) => (
-                <div key={index} className="relative flex gap-6 pb-10 last:pb-0">
-                  {/* Year bubble */}
-                  <div className="relative z-10 w-16 h-16 bg-yellow rounded-full flex items-center justify-center text-black font-bold text-sm flex-shrink-0">
-                    {item.year}
-                  </div>
+                {/* Green areas */}
+                <rect x="50" y="150" width="120" height="80" rx="8" fill="#c5e1a5" opacity="0.5" />
+                <rect x="350" y="300" width="100" height="60" rx="8" fill="#c5e1a5" opacity="0.5" />
+                <rect x="150" y="350" width="80" height="60" rx="8" fill="#c5e1a5" opacity="0.5" />
 
-                  {/* Content */}
-                  <div className="flex-grow pt-3">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-gray-600 mb-2">{item.description}</p>
-                    {item.placeholder && (
-                      <p className="text-sm text-yellow-dark/80 italic">{item.placeholder}</p>
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+                {/* Major roads */}
+                <path d="M0 200 L200 190 L350 200 L500 180 L650 160" stroke="#fdd835" strokeWidth="4" fill="none" />
+                <path d="M300 0 L320 100 L350 200 L330 350 L300 450" stroke="#fdd835" strokeWidth="4" fill="none" />
+                <path d="M200 190 L180 300 L150 450" stroke="#fff9c4" strokeWidth="3" fill="none" />
+                <path d="M500 180 L520 280 L550 400" stroke="#fff9c4" strokeWidth="3" fill="none" />
+                <path d="M350 200 L400 250 L500 280" stroke="#fff9c4" strokeWidth="3" fill="none" />
 
-      {/* Why Local Matters */}
-      <section className="py-16 md:py-24 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Why Local Knowledge Matters
-            </h2>
-            <p className="text-lg text-gray-600 mb-6">
-              Having worked in Sittingbourne and the surrounding Kent area for over three decades,
-              I understand the unique characteristics of local properties. From Victorian terraces
-              to modern new builds, I&apos;ve seen and worked on it all.
-            </p>
-            <p className="text-lg text-gray-600 mb-6">
-              Being local means I can respond quickly, provide accurate quotes, and offer genuine
-              advice based on years of experience with properties just like yours.
-            </p>
-            <div className="bg-yellow/10 border border-yellow/30 rounded-xl p-6">
-              <p className="text-yellow-dark/90 italic">
-                [What makes your local knowledge valuable? Specific property types? Common issues
-                you see in the area?]
-              </p>
+                {/* Minor roads */}
+                <path d="M100 100 L200 190" stroke="#ffffff" strokeWidth="2" fill="none" />
+                <path d="M400 100 L350 200" stroke="#ffffff" strokeWidth="2" fill="none" />
+                <path d="M250 300 L330 350" stroke="#ffffff" strokeWidth="2" fill="none" />
+
+                {/* Service radius circle */}
+                <circle cx="380" cy="200" r="140" fill="#fbbf24" fillOpacity="0.12" stroke="#fbbf24" strokeWidth="2" strokeDasharray="8 4" />
+
+                {/* Town labels */}
+                <text x="360" y="195" textAnchor="middle" className="text-[11px] font-bold" fill="#1a1a1a">Sittingbourne</text>
+
+                <text x="200" y="185" textAnchor="middle" className="text-[9px]" fill="#555">Gillingham</text>
+                <circle cx="200" cy="190" r="3" fill="#888" />
+
+                <text x="150" y="300" textAnchor="middle" className="text-[9px]" fill="#555">Chatham</text>
+                <circle cx="150" cy="305" r="3" fill="#888" />
+
+                <text x="480" y="175" textAnchor="middle" className="text-[9px]" fill="#555">Faversham</text>
+                <circle cx="480" cy="180" r="3" fill="#888" />
+
+                <text x="530" y="110" textAnchor="middle" className="text-[9px]" fill="#555">Sheerness</text>
+                <circle cx="530" cy="115" r="3" fill="#888" />
+
+                <text x="550" y="80" textAnchor="middle" className="text-[9px]" fill="#555">Isle of Sheppey</text>
+
+                <text x="130" y="220" textAnchor="middle" className="text-[9px]" fill="#555">Rainham</text>
+                <circle cx="130" cy="225" r="3" fill="#888" />
+
+                <text x="300" y="380" textAnchor="middle" className="text-[9px]" fill="#555">Maidstone</text>
+                <circle cx="300" cy="385" r="3" fill="#888" />
+
+                <text x="430" y="240" textAnchor="middle" className="text-[9px]" fill="#555">Teynham</text>
+                <circle cx="430" cy="225" r="3" fill="#888" />
+
+                <text x="290" y="220" textAnchor="middle" className="text-[9px]" fill="#555">Newington</text>
+                <circle cx="290" cy="225" r="3" fill="#888" />
+
+                {/* Sittingbourne pin */}
+                <g transform="translate(380, 170)">
+                  <path d="M0 0 C0 -15 -10 -25 -10 -30 C-10 -37 -3 -42 0 -42 C3 -42 10 -37 10 -30 C10 -25 0 -15 0 0 Z" fill="#dc2626" />
+                  <circle cx="0" cy="-30" r="4" fill="white" />
+                </g>
+              </svg>
+
+              {/* Google Maps style controls (decorative) */}
+              <div className="absolute top-3 right-3 flex flex-col gap-1">
+                <div className="w-8 h-8 bg-white rounded shadow flex items-center justify-center text-gray-600 text-lg font-bold">+</div>
+                <div className="w-8 h-8 bg-white rounded shadow flex items-center justify-center text-gray-600 text-lg font-bold">&minus;</div>
+              </div>
+
+              {/* Google branding mock */}
+              <div className="absolute bottom-2 left-2 text-[10px] text-gray-500 bg-white/80 px-1 rounded">
+                Map data &middot; Service area shown
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
-      <section className="py-16 md:py-20 bg-black">
+      <section className="py-12 md:py-16 bg-black">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-yellow mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-yellow mb-3">
             Ready to Work With a Qualified Professional?
           </h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 mb-6 max-w-2xl mx-auto">
             Get in touch today for a free, no-obligation quote on your electrical work.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -259,11 +195,7 @@ export default function AboutPage() {
               </svg>
               Call 07951 596167
             </CTAButton>
-            <CTAButton
-              href="/contact"
-              variant="outline"
-              size="lg"
-            >
+            <CTAButton href="/contact" variant="outline" size="lg">
               Contact Us
             </CTAButton>
           </div>
