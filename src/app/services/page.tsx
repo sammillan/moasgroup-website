@@ -6,39 +6,39 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Electrical Services',
   description:
-    'Professional electrical services in Sittingbourne, Kent. Electrical testing, socket installation, lighting, repairs, rewiring & emergency call-outs. Call 07951 596167.',
+    'Professional domestic electrical services in Kent & London. LED lighting, fault finding, rewires, sockets & 24 hour call out. Call 07920 142026.',
 };
 
 const services = [
   {
-    icon: ServiceIcons.testing,
-    title: 'Testing & Inspections',
-    description: 'EICRs, landlord checks, PAT testing & safety certificates.',
-  },
-  {
-    icon: ServiceIcons.sockets,
-    title: 'Sockets & Outlets',
-    description: 'New sockets, USB points, outdoor outlets & appliance circuits.',
+    icon: ServiceIcons.lighting,
+    title: 'Kitchen / Bathroom LED',
+    description: 'Professional LED lighting for kitchens, bathrooms & living spaces.',
   },
   {
     icon: ServiceIcons.lighting,
-    title: 'Lighting',
-    description: 'LED upgrades, dimmers, security lights & garden lighting.',
+    title: 'Indoor / Outdoor Lighting',
+    description: 'Full lighting design, installation & upgrades inside and out.',
   },
   {
     icon: ServiceIcons.repairs,
-    title: 'Repairs',
-    description: 'Fault finding, circuit repairs, socket fixes & fuse box issues.',
+    title: 'Fault Finding',
+    description: 'Expert diagnostics to locate and fix electrical faults fast.',
   },
   {
     icon: ServiceIcons.rewiring,
-    title: 'Rewiring',
-    description: 'Full & partial rewires, consumer unit upgrades & earthing.',
+    title: 'Full / Partial Rewires',
+    description: 'Complete or partial rewiring to bring your property up to standard.',
+  },
+  {
+    icon: ServiceIcons.sockets,
+    title: 'Adding / Removing Sockets',
+    description: 'Additional sockets, relocations & removals to suit your needs.',
   },
   {
     icon: ServiceIcons.emergency,
-    title: 'Emergency',
-    description: 'Power outages, sparking sockets, burning smells & tripped circuits.',
+    title: '24 Hour Emergency Call Out',
+    description: 'Day or night, we\'re available for urgent electrical emergencies.',
   },
 ];
 
@@ -47,7 +47,7 @@ export default function ServicesPage() {
     <>
       <PageHero
         title="Our Electrical Services"
-        subtitle="Professional, reliable electrical services for homes and businesses throughout Sittingbourne and Kent."
+        subtitle="All aspects of domestic electrical work across Kent & London."
       />
 
       {/* Services Grid */}
@@ -119,7 +119,7 @@ export default function ServicesPage() {
             No problem! Give us a call for free, friendly advice and a no-obligation quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="tel:07951596167" variant="primary" size="lg">
+            <CTAButton href="tel:07920142026" variant="primary" size="lg">
               <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -128,7 +128,7 @@ export default function ServicesPage() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call 07951 596167
+              Call 07920 142026
             </CTAButton>
             <CTAButton href="/contact" variant="outline" size="lg">
               Request a Quote

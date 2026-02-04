@@ -5,21 +5,21 @@ import CTAButton from '@/components/CTAButton';
 
 const featuredServices = [
   {
-    icon: ServiceIcons.testing,
-    title: 'Testing & Inspections',
-    description: 'EICRs, landlord safety checks, and PAT testing to keep your property safe and compliant.',
+    icon: ServiceIcons.lighting,
+    title: 'Kitchen / Bathroom LED',
+    description: 'Professional LED lighting installations for kitchens and bathrooms throughout Kent & London.',
     href: '/services',
   },
   {
     icon: ServiceIcons.rewiring,
-    title: 'Rewiring & Upgrades',
-    description: 'Full and partial rewires, consumer unit upgrades, and modernising older properties.',
+    title: 'Full / Partial Rewires',
+    description: 'Complete and partial rewiring services to bring your property up to current standards.',
     href: '/services',
   },
   {
-    icon: ServiceIcons.emergency,
-    title: 'Emergency Call-Outs',
-    description: 'Urgent electrical faults need fast attention. Available for emergency work when you need it most.',
+    icon: ServiceIcons.repairs,
+    title: 'Fault Finding',
+    description: 'Expert fault finding and diagnostics. 24 hour call out available for emergencies.',
     href: '/services',
   },
 ];
@@ -39,14 +39,14 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Sittingbourne&apos;s Trusted Electrician for{' '}
-                <span className="text-yellow">30+ Years</span>
+                <span className="text-yellow">Black Gold</span>{' '}
+                Electrical Installations
               </h1>
               <p className="mt-6 text-xl text-gray-300">
-                JIB Approved | City & Guilds Qualified | No Job Too Small
+                All Aspects Of Domestic Electrical Work | NICEIC Domestic Installer | 24 Hour Call Out
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <CTAButton href="tel:07951596167" variant="primary" size="lg">
+                <CTAButton href="tel:07920142026" variant="primary" size="lg">
                   <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -57,8 +57,8 @@ export default function Home() {
                 </CTAButton>
               </div>
               <p className="mt-6 text-2xl font-bold text-yellow">
-                <a href="tel:07951596167" className="hover:text-yellow-light transition-colors">
-                  07951 596167
+                <a href="tel:07920142026" className="hover:text-yellow-light transition-colors">
+                  07920 142026
                 </a>
               </p>
             </div>
@@ -68,7 +68,7 @@ export default function Home() {
               <div className="rounded-2xl overflow-hidden border-2 border-yellow/20 shadow-2xl">
                 <Image
                   src="/test_home.jpg"
-                  alt="Professional electrician at work"
+                  alt="Black Gold Electrical Installations"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover"
@@ -91,7 +91,7 @@ export default function Home() {
               How Can We Help?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              From routine inspections to emergency repairs, we handle all domestic and commercial electrical work across Kent.
+              All aspects of domestic electrical work across Kent & London. NICEIC registered with 24 hour call out.
             </p>
           </div>
 
@@ -162,16 +162,16 @@ export default function Home() {
             Need an Electrician?
           </h2>
           <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
-            Get in touch today for a free, no-obligation quote. Available for emergency call-outs across Sittingbourne and Kent.
+            Get in touch today for a free, no-obligation quote. 24 hour call out available across Kent & London.
           </p>
           <a
-            href="tel:07951596167"
+            href="tel:07920142026"
             className="inline-flex items-center text-4xl md:text-5xl font-bold text-yellow hover:text-yellow-light transition-colors mb-8"
           >
             <svg className="w-10 h-10 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            07951 596167
+            07920 142026
           </a>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton href="/contact" variant="primary" size="lg">

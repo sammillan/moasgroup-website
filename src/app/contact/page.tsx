@@ -5,7 +5,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Contact Terry Thornton Electrician in Sittingbourne, Kent. Call 07951 596167 for a free quote. Available for emergency call-outs.',
+    'Contact Black Gold Electrical Installations in Kent & London. Call 07920 142026 for a free quote. 24 hour call out available.',
 };
 
 export default function ContactPage() {
@@ -44,10 +44,10 @@ export default function ContactPage() {
                   Phone
                 </h3>
                 <a
-                  href="tel:07951596167"
+                  href="tel:07920142026"
                   className="text-3xl font-bold text-yellow-dark hover:text-yellow transition-colors"
                 >
-                  07951 596167
+                  07920 142026
                 </a>
                 <p className="text-gray-600 mt-2">
                   Call or text for a quick response
@@ -72,9 +72,12 @@ export default function ContactPage() {
                   </svg>
                   Email
                 </h3>
-                <p className="text-gray-600">
-                  Contact us by phone or use the form
-                </p>
+                <a
+                  href="mailto:BlackGoldElectrical@hotmail.com"
+                  className="text-yellow-dark font-bold hover:text-yellow transition-colors"
+                >
+                  BlackGoldElectrical@hotmail.com
+                </a>
               </div>
 
               {/* Business Hours */}
@@ -110,7 +113,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <p className="text-gray-500 text-sm mt-3 pt-3 border-t border-gray-200">
-                  Emergency call-outs available outside these hours &mdash; call 07951 596167
+                  24 hour call out available &mdash; call 07920 142026
                 </p>
               </div>
 
@@ -136,13 +139,13 @@ export default function ContactPage() {
                   Call us immediately for urgent issues like power outages, sparking sockets, or burning smells.
                 </p>
                 <a
-                  href="tel:07951596167"
+                  href="tel:07920142026"
                   className="inline-flex items-center text-yellow-dark font-bold hover:underline"
                 >
                   <svg className="w-4 h-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
-                  Call 07951 596167 now
+                  Call 07920 142026 now
                 </a>
               </div>
             </div>
@@ -172,7 +175,7 @@ export default function ContactPage() {
               </p>
             </div>
             <a
-              href="tel:07951596167"
+              href="tel:07920142026"
               className="inline-flex items-center gap-2 bg-yellow text-black px-8 py-4 rounded-full font-bold text-xl hover:bg-yellow-light transition-colors"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -183,7 +186,7 @@ export default function ContactPage() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              07951 596167
+              07920 142026
             </a>
           </div>
         </div>

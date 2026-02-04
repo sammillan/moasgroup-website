@@ -4,7 +4,7 @@ import PageHero from '@/components/PageHero';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'Privacy Policy for Terry Thornton Electrician. Learn how we collect, use, and protect your personal information.',
+    'Privacy Policy for Black Gold Electrical Installations. Learn how we collect, use, and protect your personal information.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -23,7 +23,7 @@ export default function PrivacyPolicyPage() {
 
             <h2 className="text-gray-900">1. Introduction</h2>
             <p>
-              <strong>Terry Thornton Electrician</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to
+              <strong>Black Gold Electrical Installations</strong> (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) is committed to
               protecting your privacy. This Privacy Policy explains how we collect, use,
               disclose, and safeguard your information when you visit our website or use
               our services.
@@ -129,15 +129,15 @@ export default function PrivacyPolicyPage() {
             </p>
             <ul>
               <li>
-                <strong>Phone:</strong> 07951 596167
+                <strong>Phone:</strong> 07920 142026
               </li>
               <li>
                 <strong>Email:</strong>{' '}
-                <span className="text-gray-600">Contact us by phone</span>
+                <a href="mailto:BlackGoldElectrical@hotmail.com" className="text-yellow-dark hover:underline">BlackGoldElectrical@hotmail.com</a>
               </li>
               <li>
                 <strong>Address:</strong>{' '}
-                <span className="text-gray-600">Sittingbourne, Kent</span>
+                <span className="text-gray-600">Kent & London</span>
               </li>
             </ul>
 

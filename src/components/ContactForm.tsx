@@ -32,12 +32,12 @@ export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const services = [
-    'Electrical Testing & Inspections',
-    'Additional Sockets & Outlets',
-    'Lighting Installation',
-    'Electrical Repairs',
-    'Rewiring Services',
-    'Emergency Call-Out',
+    'Kitchen / Bathroom LED',
+    'Indoor / Outdoor Lighting',
+    'Fault Finding',
+    'Full / Partial Rewires',
+    'Adding / Removing Sockets',
+    '24 Hour Call Out',
     'Other / Not Sure',
   ];
 
@@ -240,7 +240,7 @@ export default function ContactForm() {
       </CTAButton>
 
       <p className="text-sm text-gray-500 text-center mt-4">
-        Or call us directly: <a href="tel:07951596167" className="text-yellow-dark font-bold hover:underline">07951 596167</a>
+        Or call us directly: <a href="tel:07920142026" className="text-yellow-dark font-bold hover:underline">07920 142026</a>
       </p>
     </form>
   );

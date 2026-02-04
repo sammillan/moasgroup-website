@@ -12,30 +12,30 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Terry Thornton Electrician | Sittingbourne, Kent | 30+ Years Experience",
-    template: "%s | Terry Thornton Electrician",
+    default: "Black Gold Electrical Installations | Kent & London | All Aspects Of Domestic Electrical Work",
+    template: "%s | Black Gold Electrical Installations",
   },
   description:
-    "JIB Approved Electrician in Sittingbourne, Kent. City & Guilds qualified with 30+ years experience. Electrical testing, repairs, rewiring & emergency call-outs. Call 07951 596167.",
+    "NICEIC Domestic Installer in Kent & London. All aspects of domestic electrical work. 24 hour call out available. Call 07920 142026.",
   keywords: [
-    "electrician Sittingbourne",
     "electrician Kent",
-    "JIB approved electrician",
-    "electrical repairs Sittingbourne",
+    "electrician London",
+    "NICEIC domestic installer",
+    "electrical installations Kent",
     "rewiring Kent",
     "electrical testing",
     "emergency electrician Kent",
+    "24 hour electrician",
   ],
-  authors: [{ name: "Terry Thornton Electrician" }],
-  creator: "Terry Thornton Electrician",
+  authors: [{ name: "Black Gold Electrical Installations" }],
+  creator: "Black Gold Electrical Installations",
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://terrythorntonelectrician.co.uk",
-    siteName: "Terry Thornton Electrician",
-    title: "Terry Thornton Electrician | Sittingbourne, Kent",
+    siteName: "Black Gold Electrical Installations",
+    title: "Black Gold Electrical Installations | Kent & London",
     description:
-      "JIB Approved Electrician in Sittingbourne, Kent with 30+ years experience. Call 07951 596167 for a free quote.",
+      "NICEIC Domestic Installer serving Kent & London. All aspects of domestic electrical work. Call 07920 142026 for a free quote.",
   },
   robots: {
     index: true,
