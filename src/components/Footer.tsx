@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent and surrounding areas. NICEIC registered. 24hr emergency services.
+              Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent and surrounding areas. Certified professionals. 24hr emergency services.
             </p>
             <div className="space-y-2 mb-4">
               <a
@@ -80,19 +80,12 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Service Area & Accreditations */}
+          {/* Service Area */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-yellow">Service Area</h3>
             <p className="text-gray-400 mb-4">
               Proudly serving Canterbury, Kent and surrounding areas including Ashford, Ramsgate, Deal, Maidstone, Sittingbourne, Dover, Faversham, Herne Bay, Whitstable, Margate, Broadstairs, Aylesham, and Folkestone.
             </p>
-
-            <h3 className="text-lg font-semibold mt-6 mb-4 text-yellow">Accreditations</h3>
-            <div className="flex gap-4">
-              <div className="w-16 h-16 bg-gray-900 rounded-lg flex items-center justify-center text-xs text-gray-500 text-center p-2 border border-gray-800">
-                NICEIC
-              </div>
-            </div>
           </div>
         </div>
 

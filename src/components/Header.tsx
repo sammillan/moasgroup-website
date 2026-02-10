@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 const navigation = [
@@ -20,12 +21,14 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-yellow rounded-lg flex items-center justify-center">
-                <svg className="w-6 h-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/moas-group-logo.jpg"
+                alt="MOAS GROUP Logo"
+                width={50}
+                height={50}
+                className="rounded-lg"
+              />
               <div className="hidden sm:block">
                 <span className="text-xl font-bold text-yellow">MOAS GROUP</span>
                 <span className="block text-xs text-gray-400">Electrical Services</span>

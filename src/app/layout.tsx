@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | MOAS GROUP LIMITED",
   },
   description:
-    "MOAS GROUP LIMITED - Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. EICRs, fuse box upgrades, EV chargers, rewiring, 24hr emergency callouts. NICEIC registered. Call 07384 397487",
+    "MOAS GROUP LIMITED - Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. EICRs, fuse box upgrades, reactive maintenance, landlord certificates, breakdown cover, 24hr emergency callouts. Certified professionals. Call 07384 397487",
   keywords: [
     "electrician Canterbury",
     "electrician Kent",
@@ -25,12 +25,12 @@ export const metadata: Metadata = {
     "electrical services Canterbury",
     "emergency electrician Canterbury",
     "EICR Canterbury",
-    "EV charger installation",
     "fuse box upgrade",
-    "rewiring Canterbury",
     "commercial electrician Kent",
     "24 hour electrician Canterbury",
     "reactive maintenance",
+    "landlord certificates",
+    "electrical breakdown cover",
   ],
   authors: [{ name: "MOAS GROUP LIMITED" }],
   creator: "MOAS GROUP LIMITED",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "MOAS GROUP LIMITED",
     title: "MOAS GROUP LIMITED | Electrician Canterbury, Kent | 24hr Emergency Electrical Services",
     description:
-      "Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. NICEIC registered. 24hr emergency callouts. Call 07384 397487",
+      "Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. Certified professionals. 24hr emergency callouts. Call 07384 397487",
   },
   robots: {
     index: true,

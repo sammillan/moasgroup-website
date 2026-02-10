@@ -32,12 +32,13 @@ export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const services = [
-    'Kitchen / Bathroom LED',
-    'Indoor / Outdoor Lighting',
-    'Fault Finding',
-    'Full / Partial Rewires',
+    '24 Hour Emergency Call Out',
+    'EICR Safety Inspection',
+    'Fuse Box / Consumer Unit Upgrade',
+    'Landlord Safety Certificate',
+    'Reactive Maintenance',
     'Adding / Removing Sockets',
-    '24 Hour Call Out',
+    'Commercial Services',
     'Other / Not Sure',
   ];
 

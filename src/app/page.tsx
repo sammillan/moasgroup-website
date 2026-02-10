@@ -13,13 +13,13 @@ const featuredServices = [
   {
     icon: ServiceIcons.rewiring,
     title: 'Domestic & Commercial',
-    description: 'Full electrical services for homes and businesses. Rewiring, fuse box upgrades, EICRs and more.',
+    description: 'Full electrical services for homes and businesses. Fuse box upgrades, EICRs, reactive maintenance and more.',
     href: '/services',
   },
   {
-    icon: ServiceIcons.lighting,
-    title: 'EV Chargers & LED Lighting',
-    description: 'Future-proof your property with EV charger installation and energy-efficient LED lighting upgrades.',
+    icon: ServiceIcons.testing,
+    title: 'Electrical Breakdown Cover',
+    description: 'Comprehensive electrical breakdown cover for peace of mind. We\'ve got you covered.',
     href: '/services',
   },
 ];
@@ -44,7 +44,7 @@ export default function Home() {
                 <span className="text-yellow">Electrical Services</span>
               </h1>
               <p className="mt-6 text-xl text-gray-300">
-                Trusted electrical experts in Canterbury, Kent and all surrounding areas. Domestic &amp; commercial. NICEIC registered. 24hr emergency callouts.
+                Trusted electrical experts in Canterbury, Kent and all surrounding areas. Domestic &amp; commercial. Certified professionals. 24hr emergency callouts.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <CTAButton href="tel:07384397487" variant="primary" size="lg">
@@ -68,8 +68,8 @@ export default function Home() {
             <div className="hidden lg:block">
               <div className="rounded-2xl overflow-hidden border-2 border-yellow/20 shadow-2xl">
                 <Image
-                  src="/moas-group-logo.jpg"
-                  alt="MOAS GROUP LIMITED - Electrical Services Canterbury, Kent"
+                  src="/test_home.jpg"
+                  alt="MOAS GROUP LIMITED Van - Professional Electrical Services Canterbury, Kent"
                   width={800}
                   height={600}
                   className="w-full h-auto object-cover"
@@ -92,7 +92,7 @@ export default function Home() {
               How Can We Help?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Domestic and commercial electrical services across Canterbury, Kent and surrounding areas. NICEIC registered with 24hr emergency cover.
+              Domestic and commercial electrical services across Canterbury, Kent and surrounding areas. Certified professionals with 24hr emergency cover.
             </p>
           </div>
 
@@ -135,7 +135,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Quality</h3>
-              <p className="text-gray-600">NICEIC registered with certified professionals delivering high-quality workmanship on every job.</p>
+              <p className="text-gray-600">Certified professionals delivering high-quality workmanship on every job.</p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow/10 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -5,7 +5,7 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn about MOAS GROUP LIMITED. Local experts in electrical services. NICEIC registered serving Canterbury, Kent and surrounding areas. Domestic & commercial electrical services.',
+    'Learn about MOAS GROUP LIMITED. Local experts in electrical services. Certified professionals serving Canterbury, Kent and surrounding areas. Domestic & commercial electrical services.',
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About MOAS GROUP LIMITED"
-        subtitle="Local experts in electrical services. Domestic & commercial electrician serving Canterbury, Kent and surrounding areas. NICEIC registered."
+        subtitle="Local experts in electrical services. Domestic & commercial electrician serving Canterbury, Kent and surrounding areas. Certified professionals."
       />
 
       {/* About Section */}
@@ -52,22 +52,22 @@ export default function AboutPage() {
 
               <p className="text-gray-600 text-lg mb-8">
                 MOAS GROUP LIMITED is a family-owned electrical services company based in Canterbury, Kent.
-                We are NICEIC registered professionals providing comprehensive electrical services across
+                We are certified professionals providing comprehensive electrical services across
                 Canterbury and all surrounding areas including Ashford, Ramsgate, Deal, Maidstone, Sittingbourne,
                 Dover, Faversham, Herne Bay, Whitstable, Margate, Broadstairs, Aylesham, and Folkestone.
               </p>
 
               <p className="text-gray-600 text-lg mb-8">
                 From 24hr emergency callouts to planned electrical installations, we deliver quality workmanship
-                on every job. Our services include EICRs, fuse box upgrades, full and partial rewiring, LED lighting
-                upgrades, EV charger installation, reactive maintenance, and comprehensive landlord safety certificates.
+                on every job. Our services include EICRs, fuse box upgrades, reactive maintenance, comprehensive
+                landlord safety certificates, and electrical breakdown cover.
                 Whether domestic or commercial, we&apos;re here to help.
               </p>
 
               {/* Qualifications - simple inline */}
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
-                  NICEIC Registered
+                  Certified Professionals
                 </span>
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
                   Fully Insured
@@ -77,9 +77,6 @@ export default function AboutPage() {
                 </span>
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
                   Family-Owned
-                </span>
-                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
-                  Certified Professionals
                 </span>
               </div>
 

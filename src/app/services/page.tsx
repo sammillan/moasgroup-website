@@ -6,7 +6,7 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Electrical Services',
   description:
-    'Professional domestic & commercial electrical services in Canterbury, Kent. 24hr emergency services, EICRs, fuse box upgrades, rewiring, EV chargers, LED lighting & reactive maintenance. Call 07384 397487',
+    'Professional domestic & commercial electrical services in Canterbury, Kent. 24hr emergency services, EICRs, fuse box upgrades, reactive maintenance, landlord certificates & breakdown cover. Call 07384 397487',
 };
 
 const services = [
@@ -46,29 +46,9 @@ const services = [
     description: 'Comprehensive electrical safety certification for rental properties.',
   },
   {
-    icon: ServiceIcons.rewiring,
-    title: 'Full & Partial Re-wiring',
-    description: 'Complete or partial property rewiring to meet current standards.',
-  },
-  {
-    icon: ServiceIcons.lighting,
-    title: 'LED Lighting Upgrades',
-    description: 'Energy-efficient LED lighting installation and upgrades.',
-  },
-  {
-    icon: ServiceIcons.repairs,
-    title: 'Electrical Fault Finding',
-    description: 'Expert diagnostics to quickly identify and resolve electrical issues.',
-  },
-  {
-    icon: ServiceIcons.ev,
-    title: 'EV Charger Installation',
-    description: 'Professional electric vehicle charging point installation.',
-  },
-  {
-    icon: ServiceIcons.lighting,
-    title: 'Lighting Design',
-    description: 'Professional lighting design and installation for any space.',
+    icon: ServiceIcons.testing,
+    title: 'Electrical Breakdown Cover',
+    description: 'Comprehensive electrical breakdown cover for peace of mind. We\'ve got you covered.',
   },
 ];
 

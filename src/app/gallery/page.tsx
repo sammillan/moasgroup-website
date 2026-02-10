@@ -5,19 +5,19 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'Gallery',
   description:
-    'View examples of our electrical work across Canterbury, Kent and surrounding areas. Professional installations, rewiring, and more.',
+    'View examples of our electrical work across Canterbury, Kent and surrounding areas. Professional installations and more.',
 };
 
 const galleryItems = [
   { label: 'Consumer Unit Upgrade' },
-  { label: 'Full House Rewire' },
-  { label: 'LED Lighting Installation' },
-  { label: 'Garden Lighting' },
   { label: 'Socket Installation' },
   { label: 'EICR Inspection' },
   { label: 'Security Lighting' },
   { label: 'Kitchen Electrics' },
   { label: 'Outdoor Sockets' },
+  { label: 'Emergency Repairs' },
+  { label: 'Commercial Installation' },
+  { label: 'Safety Inspection' },
 ];
 
 export default function GalleryPage() {

@@ -14,11 +14,6 @@ MOAS GROUP LIMITED provides comprehensive electrical services across Canterbury,
 - Electrical Installation Condition Reports (EICRs)
 - Fuse Box / Consumer Unit Upgrades
 - Landlord Safety Certificates
-- Full & Partial Re-wiring
-- LED Lighting Upgrades
-- Electrical Fault Finding
-- EV Charger Installation
-- Lighting Design
 - Electrical Breakdown Cover
 
 ### Contact
