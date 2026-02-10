@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Yellow/Black Color Palette */
-  --color-yellow: #FBBF24;
-  --color-yellow-dark: #F59E0B;
-  --color-yellow-light: #FCD34D;
-  --color-black: #0A0A0A;
-  --color-black-light: #1F2937;
+  /* MOAS GROUP Brand Palette */
+  --color-yellow: #FFA007;
+  --color-yellow-dark: #E08D00;
+  --color-yellow-light: #FFB840;
+  --color-black: #000000;
+  --color-black-light: #1A1A1A;
   --color-gray-900: #171717;
   --color-gray-700: #404040;
   --color-gray-600: #525252;
@@ -24,9 +24,6 @@
 }
 
 /* Base Styles */
-html {
-  scroll-behavior: smooth;
-}
 
 body {
   font-family: var(--font-sans);

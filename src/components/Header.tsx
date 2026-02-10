@@ -27,8 +27,8 @@ export default function Header() {
                 </svg>
               </div>
               <div className="hidden sm:block">
-                <span className="text-xl font-bold text-yellow">Black Gold</span>
-                <span className="block text-xs text-gray-400">Electrical Installations</span>
+                <span className="text-xl font-bold text-yellow">MOAS GROUP</span>
+                <span className="block text-xs text-gray-400">Electrical Services</span>
               </div>
             </Link>
           </div>
@@ -49,13 +49,13 @@ export default function Header() {
           {/* Phone Number - Desktop */}
           <div className="hidden md:flex md:items-center md:gap-4">
             <a
-              href="tel:07920142026"
+              href="tel:07384397487"
               className="flex items-center gap-2 bg-yellow text-black px-5 py-2.5 rounded-full font-bold hover:bg-yellow-light transition-colors"
             >
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              07920 142026
+              07384 397487
             </a>
           </div>
 
@@ -98,13 +98,13 @@ export default function Header() {
             </div>
             <div className="mt-4 pt-4 border-t border-gray-800">
               <a
-                href="tel:07920142026"
+                href="tel:07384397487"
                 className="flex items-center justify-center gap-2 bg-yellow text-black px-5 py-3 rounded-full font-bold hover:bg-yellow-light transition-colors"
               >
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                Call: 07920 142026
+                Call: 07384 397487
               </a>
             </div>
           </div>

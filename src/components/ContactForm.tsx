@@ -240,7 +240,7 @@ export default function ContactForm() {
       </CTAButton>
 
       <p className="text-sm text-gray-500 text-center mt-4">
-        Or call us directly: <a href="tel:07920142026" className="text-yellow-dark font-bold hover:underline">07920 142026</a>
+        Or call us directly: <a href="tel:07384397487" className="text-yellow-dark font-bold hover:underline">07384 397487</a>
       </p>
     </form>
   );

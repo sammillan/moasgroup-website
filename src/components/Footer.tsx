@@ -23,21 +23,43 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <span className="text-xl font-bold text-yellow">Black Gold</span>
-                <span className="block text-xs text-gray-400">Electrical Installations</span>
+                <span className="text-xl font-bold text-yellow">MOAS GROUP</span>
+                <span className="block text-xs text-gray-400">Electrical Services</span>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              NICEIC Domestic Installer serving Kent & London. All aspects of domestic electrical work. 24 hour call out.
+              Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent and surrounding areas. NICEIC registered. 24hr emergency services.
             </p>
+            <div className="space-y-2 mb-4">
+              <a
+                href="tel:07384397487"
+                className="inline-flex items-center gap-2 text-yellow hover:text-yellow-light font-bold text-lg"
+              >
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                07384 397487
+              </a>
+              <a
+                href="mailto:info@moasgroup.co.uk"
+                className="block text-gray-400 hover:text-yellow transition-colors text-sm"
+              >
+                info@moasgroup.co.uk
+              </a>
+              <p className="text-gray-400 text-sm">
+                10 Brymore Road, Canterbury, CT1 1JE
+              </p>
+            </div>
             <a
-              href="tel:07920142026"
-              className="inline-flex items-center gap-2 text-yellow hover:text-yellow-light font-bold text-lg"
+              href="https://www.instagram.com/moasgroup"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-gray-400 hover:text-yellow transition-colors"
             >
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
               </svg>
-              07920 142026
+              @moasgroup
             </a>
           </div>
 
@@ -62,7 +84,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-yellow">Service Area</h3>
             <p className="text-gray-400 mb-4">
-              Proudly serving Kent & London with all aspects of domestic electrical work.
+              Proudly serving Canterbury, Kent and surrounding areas including Ashford, Ramsgate, Deal, Maidstone, Sittingbourne, Dover, Faversham, Herne Bay, Whitstable, Margate, Broadstairs, Aylesham, and Folkestone.
             </p>
 
             <h3 className="text-lg font-semibold mt-6 mb-4 text-yellow">Accreditations</h3>
@@ -78,7 +100,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Black Gold Electrical Installations. All rights reserved.
+              © {new Date().getFullYear()} MOAS GROUP LIMITED. All rights reserved.
             </p>
             <Link
               href="/privacy-policy"

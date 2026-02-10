@@ -5,15 +5,15 @@ import CTAButton from '@/components/CTAButton';
 export const metadata: Metadata = {
   title: 'About Us',
   description:
-    'Learn about Black Gold Electrical Installations. NICEIC Domestic Installer serving Medway & Chatham. All aspects of domestic electrical work.',
+    'Learn about MOAS GROUP LIMITED. Local experts in electrical services. NICEIC registered serving Canterbury, Kent and surrounding areas. Domestic & commercial electrical services.',
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        title="About Black Gold Electrical"
-        subtitle="NICEIC Domestic Installer serving Medway & Chatham. All aspects of domestic electrical work."
+        title="About MOAS GROUP LIMITED"
+        subtitle="Local experts in electrical services. Domestic & commercial electrician serving Canterbury, Kent and surrounding areas. NICEIC registered."
       />
 
       {/* About Section */}
@@ -47,26 +47,39 @@ export default function AboutPage() {
             {/* Content */}
             <div className="order-1 lg:order-2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Black Gold Electrical Installations
+                MOAS GROUP LIMITED
               </h2>
 
               <p className="text-gray-600 text-lg mb-8">
-                Black Gold Electrical Installations is a NICEIC Domestic Installer serving
-                Medway & Chatham. We cover all aspects of domestic electrical work, from LED
-                lighting and rewires to fault finding and socket installations. With 24 hour
-                call out available, we&apos;re here when you need us.
+                MOAS GROUP LIMITED is a family-owned electrical services company based in Canterbury, Kent.
+                We are NICEIC registered professionals providing comprehensive electrical services across
+                Canterbury and all surrounding areas including Ashford, Ramsgate, Deal, Maidstone, Sittingbourne,
+                Dover, Faversham, Herne Bay, Whitstable, Margate, Broadstairs, Aylesham, and Folkestone.
+              </p>
+
+              <p className="text-gray-600 text-lg mb-8">
+                From 24hr emergency callouts to planned electrical installations, we deliver quality workmanship
+                on every job. Our services include EICRs, fuse box upgrades, full and partial rewiring, LED lighting
+                upgrades, EV charger installation, reactive maintenance, and comprehensive landlord safety certificates.
+                Whether domestic or commercial, we&apos;re here to help.
               </p>
 
               {/* Qualifications - simple inline */}
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
-                  NICEIC Domestic Installer
+                  NICEIC Registered
                 </span>
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
                   Fully Insured
                 </span>
                 <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
-                  24 Hour Call Out
+                  24hr Emergency Services
+                </span>
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  Family-Owned
+                </span>
+                <span className="inline-flex items-center bg-yellow/10 text-yellow-dark border border-yellow/30 rounded-full px-4 py-2 text-sm font-medium">
+                  Certified Professionals
                 </span>
               </div>
 
@@ -86,7 +99,7 @@ export default function AboutPage() {
               Our Service Area
             </h2>
             <p className="text-gray-600">
-              Serving across Medway & Chatham.
+              Serving Canterbury, Kent and all surrounding areas.
             </p>
           </div>
 
@@ -115,41 +128,53 @@ export default function AboutPage() {
                 <path d="M200 100 L300 190" stroke="#ffffff" strokeWidth="2" fill="none" />
                 <path d="M500 100 L550 190" stroke="#ffffff" strokeWidth="2" fill="none" />
 
-                {/* Service radius circle - centered on Chatham */}
-                <circle cx="380" cy="210" r="150" fill="#fbbf24" fillOpacity="0.12" stroke="#fbbf24" strokeWidth="2" strokeDasharray="8 4" />
+                {/* Service radius circle - centered on Canterbury */}
+                <circle cx="550" cy="150" r="170" fill="#fbbf24" fillOpacity="0.12" stroke="#fbbf24" strokeWidth="2" strokeDasharray="8 4" />
 
                 {/* Town labels */}
-                <text x="380" y="205" textAnchor="middle" className="text-[11px] font-bold" fill="#1a1a1a">Chatham</text>
+                <text x="550" y="145" textAnchor="middle" className="text-[11px] font-bold" fill="#1a1a1a">Canterbury</text>
 
-                <text x="320" y="185" textAnchor="middle" className="text-[9px]" fill="#555">Rochester</text>
-                <circle cx="320" cy="190" r="3" fill="#888" />
+                <text x="650" y="125" textAnchor="middle" className="text-[9px]" fill="#555">Herne Bay</text>
+                <circle cx="650" cy="130" r="3" fill="#888" />
 
-                <text x="450" y="195" textAnchor="middle" className="text-[9px]" fill="#555">Gillingham</text>
-                <circle cx="450" cy="200" r="3" fill="#888" />
+                <text x="680" y="140" textAnchor="middle" className="text-[9px]" fill="#555">Whitstable</text>
+                <circle cx="680" cy="145" r="3" fill="#888" />
 
-                <text x="520" y="185" textAnchor="middle" className="text-[9px]" fill="#555">Rainham</text>
-                <circle cx="520" cy="190" r="3" fill="#888" />
+                <text x="720" y="120" textAnchor="middle" className="text-[9px]" fill="#555">Margate</text>
+                <circle cx="720" cy="125" r="3" fill="#888" />
 
-                <text x="260" y="175" textAnchor="middle" className="text-[9px]" fill="#555">Strood</text>
-                <circle cx="260" cy="180" r="3" fill="#888" />
+                <text x="750" y="135" textAnchor="middle" className="text-[9px]" fill="#555">Broadstairs</text>
+                <circle cx="750" cy="140" r="3" fill="#888" />
 
-                <text x="160" y="170" textAnchor="middle" className="text-[9px]" fill="#555">Gravesend</text>
-                <circle cx="160" cy="175" r="3" fill="#888" />
+                <text x="680" y="180" textAnchor="middle" className="text-[9px]" fill="#555">Ramsgate</text>
+                <circle cx="680" cy="185" r="3" fill="#888" />
 
-                <text x="650" y="185" textAnchor="middle" className="text-[9px]" fill="#555">Sittingbourne</text>
-                <circle cx="650" cy="190" r="3" fill="#888" />
+                <text x="620" y="210" textAnchor="middle" className="text-[9px]" fill="#555">Deal</text>
+                <circle cx="620" cy="215" r="3" fill="#888" />
 
-                <text x="380" y="380" textAnchor="middle" className="text-[9px]" fill="#555">Maidstone</text>
-                <circle cx="380" cy="385" r="3" fill="#888" />
+                <text x="580" y="230" textAnchor="middle" className="text-[9px]" fill="#555">Dover</text>
+                <circle cx="580" cy="235" r="3" fill="#888" />
 
-                <text x="250" y="260" textAnchor="middle" className="text-[9px]" fill="#555">Snodland</text>
-                <circle cx="250" cy="265" r="3" fill="#888" />
+                <text x="500" y="250" textAnchor="middle" className="text-[9px]" fill="#555">Folkestone</text>
+                <circle cx="500" cy="255" r="3" fill="#888" />
 
-                <text x="500" y="240" textAnchor="middle" className="text-[9px]" fill="#555">Newington</text>
-                <circle cx="500" cy="245" r="3" fill="#888" />
+                <text x="450" y="190" textAnchor="middle" className="text-[9px]" fill="#555">Ashford</text>
+                <circle cx="450" cy="195" r="3" fill="#888" />
 
-                {/* Chatham pin */}
-                <g transform="translate(380, 180)">
+                <text x="520" y="115" textAnchor="middle" className="text-[9px]" fill="#555">Faversham</text>
+                <circle cx="520" cy="120" r="3" fill="#888" />
+
+                <text x="400" y="140" textAnchor="middle" className="text-[9px]" fill="#555">Sittingbourne</text>
+                <circle cx="400" cy="145" r="3" fill="#888" />
+
+                <text x="380" y="210" textAnchor="middle" className="text-[9px]" fill="#555">Maidstone</text>
+                <circle cx="380" cy="215" r="3" fill="#888" />
+
+                <text x="480" y="165" textAnchor="middle" className="text-[9px]" fill="#555">Aylesham</text>
+                <circle cx="480" cy="170" r="3" fill="#888" />
+
+                {/* Canterbury pin */}
+                <g transform="translate(550, 120)">
                   <path d="M0 0 C0 -15 -10 -25 -10 -30 C-10 -37 -3 -42 0 -42 C3 -42 10 -37 10 -30 C10 -25 0 -15 0 0 Z" fill="#dc2626" />
                   <circle cx="0" cy="-30" r="4" fill="white" />
                 </g>
@@ -180,7 +205,7 @@ export default function AboutPage() {
             Get in touch today for a free, no-obligation quote on your electrical work.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTAButton href="tel:07920142026" variant="primary" size="lg">
+            <CTAButton href="tel:07384397487" variant="primary" size="lg">
               <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
                   strokeLinecap="round"
@@ -189,7 +214,7 @@ export default function AboutPage() {
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                 />
               </svg>
-              Call 07920 142026
+              Call 07384 397487
             </CTAButton>
             <CTAButton href="/contact" variant="outline" size="lg">
               Contact Us

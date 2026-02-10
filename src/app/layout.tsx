@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -12,30 +13,34 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Black Gold Electrical Installations | Kent & London | All Aspects Of Domestic Electrical Work",
-    template: "%s | Black Gold Electrical Installations",
+    default: "MOAS GROUP LIMITED | Electrician Canterbury, Kent | 24hr Emergency Electrical Services",
+    template: "%s | MOAS GROUP LIMITED",
   },
   description:
-    "NICEIC Domestic Installer in Kent & London. All aspects of domestic electrical work. 24 hour call out available. Call 07920 142026.",
+    "MOAS GROUP LIMITED - Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. EICRs, fuse box upgrades, EV chargers, rewiring, 24hr emergency callouts. NICEIC registered. Call 07384 397487",
   keywords: [
+    "electrician Canterbury",
     "electrician Kent",
-    "electrician London",
-    "NICEIC domestic installer",
-    "electrical installations Kent",
-    "rewiring Kent",
-    "electrical testing",
-    "emergency electrician Kent",
-    "24 hour electrician",
+    "MOAS GROUP",
+    "electrical services Canterbury",
+    "emergency electrician Canterbury",
+    "EICR Canterbury",
+    "EV charger installation",
+    "fuse box upgrade",
+    "rewiring Canterbury",
+    "commercial electrician Kent",
+    "24 hour electrician Canterbury",
+    "reactive maintenance",
   ],
-  authors: [{ name: "Black Gold Electrical Installations" }],
-  creator: "Black Gold Electrical Installations",
+  authors: [{ name: "MOAS GROUP LIMITED" }],
+  creator: "MOAS GROUP LIMITED",
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "Black Gold Electrical Installations",
-    title: "Black Gold Electrical Installations | Kent & London",
+    siteName: "MOAS GROUP LIMITED",
+    title: "MOAS GROUP LIMITED | Electrician Canterbury, Kent | 24hr Emergency Electrical Services",
     description:
-      "NICEIC Domestic Installer serving Kent & London. All aspects of domestic electrical work. Call 07920 142026 for a free quote.",
+      "Local experts in electrical services. Domestic & commercial electrician in Canterbury, Kent. NICEIC registered. 24hr emergency callouts. Call 07384 397487",
   },
   robots: {
     index: true,
@@ -51,6 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body className="font-sans antialiased min-h-screen flex flex-col">
+        <ScrollToTop />
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
